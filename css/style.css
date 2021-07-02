@@ -11,6 +11,10 @@
 	--primary-color: #392388;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
 	position: relative;
 	width: 100%;
@@ -373,6 +377,14 @@ header {
 		left: 50%;
 	}
 
+    .intro, .join {
+        padding: 0 2rem;
+    }
+
+    .back {
+        bottom: 0px;
+    }
+
 	.panels-container {
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 2fr 1fr;
@@ -480,7 +492,7 @@ header {
 	}
 
 	.container.join-mode:before {
-		bottom: 28%;
+		bottom: 22%;
 		left: 50%;
 	}
 }
