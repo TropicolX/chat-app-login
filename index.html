@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat app</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2><i class="fas fa-comment-dots"></i> LiveChat</h2>
+        </header>
+        
+        <section class="section">
+            <div class="intro-join">
+                <div class="intro">
+                    <img src="./img/heart.svg" alt="">
+                    <h2>Messaging for all</h2>
+                    <p>LiveChat delivers something others don't - 
+                        clarity of communication.</p>
+                    <p>Chat with confidence <i class="fa fa-heart"></i></p>
+                    <div class="buttons">
+                        <button id="get-started-btn" class="btn">Get Started</button>
+                        <button class="btn btn-outline">Why LiveChat?</button>
+                    </div>
+                
+                </div>
+                <div class="join">
+                    <img src="./img/log.svg" alt="">
+                    <form action="" class="sign-in-form">
+                        <h2>Sign In</h2>
+                        <div class="input-field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Username">
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="flex">
+                            <input type="submit" value="Login" class="btn solid"/>
+                        </div>
+                    </form>
+                    <div class="back">
+                        <a href="#" id="back-icon" class="back-icon">
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>  
+        </section>
+
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <img src="./img/chat.svg" class="image" alt="">
+            </div>
+        
+            <div class="panel right-panel">
+                <img src="./img/register.svg" class="image" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
